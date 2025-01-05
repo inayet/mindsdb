@@ -1,15 +1,15 @@
-Werkzeug==1.0.1
+Werkzeug==3.0.6
 lightwood >= 23.8.1.0, < 23.8.2.0
 pandas >=2.0.0, <2.1.0
 markupsafe == 2.0.1
 flask-restx >= 1.0.1, < 2.0.0
-flask >= 1.0, < 2.0
+flask >= 1.0, < 4.0
 itsdangerous==2.0.1
-jinja2<3.1.0
-langchain~=0.0.267
+jinja2<3.2.0
+langchain~=0.3.14
 pdf2image~=1.16.3
 pdfminer.six==20221105
-unstructured~=0.10.18
+unstructured~=0.11.8
 python-multipart >= 0.0.5
 pyparsing == 2.3.1
 cryptography>=35.0
@@ -36,7 +36,7 @@ mysql-connector-python
 charset-normalizer
 pyOpenSSL >= 22.0.0
 pydateinfer==0.3.0
-pyarrow >= 10.0.1, < 10.1.0
+pyarrow >= 10.0.1, < 18.2.0
 dataprep_ml
 python-magic >= 0.4.27
 openpyxl >= 3.1.1
